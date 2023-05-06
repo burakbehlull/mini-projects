@@ -23,16 +23,22 @@ const deleteTodo = (todoItem) => {
 </script>
 
 <template>
-<h1>Todo List</h1>
 
-<input type="text" v-model="todoName">
-<button type="submit" @click="addTodo">Ekle</button>
+    <div class="iambuvak">
+        <h1>Todo List</h1>
 
-<ul>
-    <li v-for="todo in todoList" :key="todo.id">{{ todo.text }} <button type="submit" @click="deleteTodo(todo)">x</button></li>
-</ul>
+        <div class="input-form">
+            <input type="text" v-model="todoName">
+            <button type="submit" @click="addTodo">Ekle</button>
+        </div>
+
+        <ul>
+            <li v-for="todo in todoList" :key="todo.id">{{ todo.text }} <button type="submit" @click="deleteTodo(todo)">x</button></li>
+        </ul>
+    </div>
 
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../styles.scss';
 </style>
