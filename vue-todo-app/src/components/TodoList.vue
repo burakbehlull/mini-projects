@@ -18,7 +18,10 @@ const addTodo = () =>{
 <input type="text" v-model="todoName">
 <button type="submit" @click="addTodo">Ekle</button>
 
-<p> {{ JSON.stringify(todoList) }}</p>
+<ul>
+    <li v-for="todo in todoList" :key="todo.id">{{ todo.text }}</li>
+</ul>
+
 </template>
 
 <style scoped>
