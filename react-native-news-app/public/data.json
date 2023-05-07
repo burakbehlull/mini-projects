@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "author": "Burak Beylerbeyi",
+        "title": "Kedi ve Köpeklerin Anlasma Kabiliyeti",
+        "description": "Açıklamalar 2",
+        "imgURL":"https://img.istiklal.com.tr/rcman/Cw620h413q95gm/storage/files/images/2021/12/10/pp-9dQ5.jpg"
+    },
+    {
+        "id": 2,
+        "author": "Gürkan Gürcüoğlu",
+        "title": "Kedilere Tavuk Temeiği Atılır mı?",
+        "description": "Açıklamalar 2",
+        "imgURL": "https://blog.petibom.com/wp-content/uploads/2021/08/tavuk-ve-kedi.jpg"
+    },
+    {
+        "id": 3,
+        "author": "Tuğrul Tuğtanımaz",
+        "title": "Türkistan neresidir",
+        "description": "Açıklamalar 3",
+        "imgURL": "https://cdn.yeniakit.com.tr/images/news/625/dogu-turkistan-neresidir-sincan-uygur-ozerk-bolgesi-nerede-h1576993375-0f9504.jpg"
+    },
+    {
+        "id": 4,
+        "author": "Suri Amed",
+        "title": "Türkler nasıl b*çaklanır?",
+        "description": "Açıklamalar 4",
+        "imgURL": "https://img-s1.onedio.com/id-62f60656cf19930e1e24e42d/rev-0/w-620/f-jpg/s-5e7492f282abc28f0d03b6c3ca227d545914858c.jpg"
+    }
+]
