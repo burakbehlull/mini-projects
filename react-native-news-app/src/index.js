@@ -6,10 +6,9 @@ function Main(){
 
     const renderItems = ({item})=> <Card item={item} />
     return(
-        <ScrollView style={Styles.container}>
+        <ScrollView style={Styles.container} contentContainerStyle={{paddingBottom: 50}}>
             <View>
-                <Text>HELLO NEWS-APP</Text>
-                
+                <Text style={Styles.headerText}>NEWS APP</Text>
             </View>
 
             <FlatList
