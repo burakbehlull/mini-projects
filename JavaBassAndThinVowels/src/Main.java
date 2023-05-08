@@ -11,14 +11,16 @@ public class Main extends Definitions {
     String buyukHarfeDonustur = veri.toUpperCase();
     char harf = buyukHarfeDonustur.charAt(0);
     
+    Operations operations = new Operations();
     switch(harf) {
     	case 'A':
     	case 'I':
     	case 'O':
     	case 'U':
-    		
+    		operations.KalinSesliHarf();
     		break;
     		default:
+    			operations.InceSesliHarf();
     			
     }
     
