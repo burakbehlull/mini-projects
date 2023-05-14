@@ -1,0 +1,19 @@
+<div class="product-component">
+    
+    <h1> {{ ProductTitle }} </h1>
+    <div class="productsBox" *ngIf="products.length; else noProduct">
+        <div class="products" *ngFor="let product of products">
+            <img  [src]="product.imageURL" alt="">
+            <div class="product">
+                <h3> Ürün Adı: {{ product.name }} </h3>
+                <h3> Fiyat: {{ product.price }} </h3>
+                <p> Açıklama: {{ product.description }} </p>
+                <Button>Ekle</Button>
+            </div>
+        </div>
+    </div>
+    
+    <ng-template #noProduct>
+        <p>Ürün Yok</p>
+    </ng-template>
+</div>

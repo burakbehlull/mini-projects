@@ -1,0 +1,22 @@
+.product-component{
+    padding: 15px;
+    .productsBox{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+
+        .products{
+            width: 25em;
+            height: 15em;
+            img{
+                width: 50%;
+                height: 80%;
+            }
+            &:nth-child(1){
+                margin-top: 15px;
+            }
+            padding: 20px;
+            // background-color: red;
+        }
+    }
+}
